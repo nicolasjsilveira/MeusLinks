@@ -139,3 +139,38 @@ canvas#bubble {
 .social-btn:hover {
   transform: scale(1.1);
 }
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 20px;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  p {
+    font-size: 15px;
+    padding: 0 15px;
+  }
+
+  .btn-link {
+    width: 90%;
+    font-size: 16px;
+    padding: 10px 15px;
+  }
+
+  .social-icons {
+    gap: 25px;
+    flex-wrap: wrap;
+  }
+
+  .social-btn {
+    width: 45px;
+    height: 45px;
+  }
+
+  footer {
+    font-size: 12px;
+    padding: 15px 10px;
+    word-break: break-word;
+  }
+}
