@@ -9,7 +9,7 @@ body {
 
 .container {
   height: 100%;
-  max-width: 700px;
+  max-width: 450px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -32,7 +32,7 @@ header img {
   margin-bottom: 20px;
 }
 
-.profile-img {
+.foto-perfil {
   width: 140px;
   height: 140px;
   border-radius: 50%;
@@ -66,7 +66,7 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 400px;
+  width: 300px;
   padding: 12px 20px;
   border: none;
   border-radius: 30px;
@@ -99,10 +99,11 @@ p {
 }
 
 footer {
+  width: 100%;
   margin-top: 50px;
   padding: 20px;
   font-size: 14px;
-  color: #ccc;
+  color: #fff;
   background: linear-gradient(90deg, rgb(0, 0, 255), rgb(4, 12, 130));
 }
 
@@ -122,8 +123,8 @@ canvas#bubble {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   background: linear-gradient(90deg, #00007d, #5320ff);
   text-decoration: none;
